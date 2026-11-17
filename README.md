@@ -14,7 +14,7 @@ PostgreSQL, SQL, psql (optional), VS Code, Git/GitHub.
 3. Run `sql/02_seed.sql` once.
 4. Run `sql/03_analytics.sql` through `sql/09_validation_transactions.sql` in filename order.
 
-Using `psql` from the project root (substitute your database name):
+Using `psql` from the project root (banking_analytics):
 
 ```bash
 createdb banking_analytics
@@ -45,7 +45,6 @@ git init
 git add .
 git commit -m "Build PostgreSQL banking analytics portfolio project"
 git branch -M main
-git remote add origin <YOUR_REPOSITORY_URL>
+git remote add origin <https://github.com/udhayakumar268/banking-transaction-sql-analytics>
 git push -u origin main
-```
-Create the empty GitHub repository before adding the remote. Avoid committing credentials or real customer data.
+``` 
